@@ -1,10 +1,8 @@
-name: <environment-name>
+name: RALab
 channels:
  - defaults
 dependencies:
-- python=3.12
+- python=3
 - openai
 - python-dotenv
-- pip
-- pip:
-  - azure-ai-inference
+- azure-ai-inference
